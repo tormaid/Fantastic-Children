@@ -71,7 +71,7 @@ def h_msk(input, th):
 	return o
 
 #Source Filter:
-v = core.d2v.Source(input=r'C:\Users\Thalia Kowalzik\Desktop\Encodan\Fantastic Children\raw\Indexed\01\FC_01.d2v')
+v = core.d2v.Source(input=r'~\Fantastic Children\raw\Indexed\01\FC_01.d2v')
 v = core.std.Trim(v, 0, 43469)
 
 #IVTC:
